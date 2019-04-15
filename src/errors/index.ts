@@ -10,3 +10,4 @@ export * from "./ApiNumberIntegerError";
 export * from "./ApiNumberRangeError";
 export * from "./ApiOtherError";
 export * from "./ApiStringLengthError";
+export * from "./ApiResourceAlreadyExistsError";
