@@ -8,6 +8,7 @@ import { ApiStringLengthError } from "./ApiStringLengthError";
 import { ApiNumberIntegerError } from "./ApiNumberIntegerError";
 import { ApiExceptionError } from "./ApiExceptionError";
 import { ApiResourceDoesntExistsError } from "./ApiResourceDoesntExistsError";
+import { ApiResourceAlreadyExistsError } from "./ApiResourceAlreadyExistsError";
 
 export type ApiErrorBase = {};
 
@@ -31,4 +32,5 @@ export type ApiError =
     | ApiStringLengthError
     | ApiNumberIntegerError
     | ApiExceptionError
-    | ApiResourceDoesntExistsError;
+    | ApiResourceDoesntExistsError
+    | ApiResourceAlreadyExistsError;
