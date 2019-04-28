@@ -1,2 +1,3 @@
 export * from "./ApiPerformTransferRequest";
-export * from "./ApiAccessLoginRequest";
+export * from "./ApiAccessTokenRequest";
+export * from "./ApiRegisterUserRequest";

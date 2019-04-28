@@ -1,4 +1,4 @@
-export type ApiAccessLoginRequest = {
+export type ApiRegisterUserRequest = {
     email: string;
     password: string;
 };
