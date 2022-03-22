@@ -1,5 +1,5 @@
 {
-    "name": "@radoslaw-medryk/bank-core-shared",
+    "name": "@sultanwebmobile/bank-core-shared",
     "version": "0.1.19",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",

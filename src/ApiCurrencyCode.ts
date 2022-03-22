@@ -4,8 +4,8 @@
  * definitions:
  *     ApiCurrencyCode:
  *         type: "string"
- *         enum: [usd, cny, pln]
+ *         enum: [usd, cny, kzt]
  */
-export type ApiCurrencyCode = "usd" | "cny" | "pln";
+export type ApiCurrencyCode = "usd" | "cny" | "kzt";
 
-export const apiCurrencyCodes = ["usd", "cny", "pln"];
+export const apiCurrencyCodes = ["usd", "cny", "kzt"];
